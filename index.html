@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<script src="app.js"></Script>
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA_0CJrLY5SQQU9lWduf94AL1kHHTPrhmg",
+    authDomain: "subscribeus-eba6f.firebaseapp.com",
+    databaseURL: "https://subscribeus-eba6f.firebaseio.com",
+    projectId: "subscribeus-eba6f",
+    storageBucket: "subscribeus-eba6f.appspot.com",
+    messagingSenderId: "90933348195",
+    appId: "1:90933348195:web:e6d7e4d734872562a1f556",
+    measurementId: "G-432PWGSCXS"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+
+<body>
+
+
+
+<div>
+<input type="email" id="email" required>
+<button onclick="getdata()">Suscribe</button>
+</div>
+</body>
+</html>
